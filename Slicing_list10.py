@@ -5,7 +5,7 @@ def main(list1,n):
         list1(list): parameter
         n(int): parameter
     Returns:
-        list: return answer.
+        list: return answer. 
     """
-    return list1[n+1:]
+    return list1[:n-1:-1]
 print(main(['f', 'e', 'd','c','b','a'],3))
