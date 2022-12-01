@@ -9,4 +9,5 @@ def main(list1,n,k):
         list: return answer.
     """
     return list1[n:k]
+    
 print(main(['a', 5, 6,'n',9],2,5))
